@@ -1,0 +1,19 @@
+// Cores base do tema 'dim' do X (Twitter)
+$color-background-dark: #15202B;
+$color-background-medium: #192734;
+$color-background-light: #22303C;
+$color-text-primary: #E7E9EA;
+$color-text-secondary: #8899A6;
+$color-accent-blue: #1DA1F2;
+$color-border: #38444D;
+
+// Variáveis CSS Root
+:root {
+  --color-background-dark: #{$color-background-dark};
+  --color-background-medium: #{$color-background-medium};
+  --color-background-light: #{$color-background-light};
+  --color-text-primary: #{$color-text-primary};
+  --color-text-secondary: #{$color-text-secondary};
+  --color-accent-blue: #{$color-accent-blue};
+  --color-border: #{$color-border};
+}

@@ -1,0 +1,100 @@
+.ativos-container {
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: var(--color-text-primary);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .ativos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+  }
+  
+  .card {
+    background-color: var(--color-background-light);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    h2 {
+      color: var(--color-text-primary);
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+  
+  .btn-novo {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .ativo-item, .ativo-detail {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: var(--color-background-dark);
+    border-radius: 8px;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    h3 {
+      color: var(--color-text-primary);
+      font-size: 16px;
+      margin: 0 0 5px 0;
+    }
+    
+    .patrimonio {
+      color: var(--color-text-secondary);
+      font-size: 14px;
+    }
+  }
+  
+  .ativo-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn-action {
+    background-color: var(--color-background-medium);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: var(--color-background-dark);
+    }
+  }
+  
